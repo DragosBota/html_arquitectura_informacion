@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-color: #fff2d0; /* Para texto, margenes, etc.*/
+  --secondary-color: #15313f; /* Para el fondo*/
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Estilos generales*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 15px;
+}
+/*header*/
+header{
+  padding: 10px;
+  border-bottom: 2px solid var(--primary-color);
+}
+.home1{
+  float: left;
+  margin-bottom: 20px;
+  border-radius: 30%;
+}
+.clickable{
+  display: inline;
+  padding: 8px;
+  border: 1px solid var(--primary-color);
+  border-radius: 20px;
+  margin-right: 10px;
+  float: right;
+}
+
+a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+a:hover{
+  text-decoration: underline;
+}
+em{
+  font-weight: bold;
+}
+
+.encabezado{
+  display: inline-block;
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+h2{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.texto-encabezado{
+  margin: 20px 0px 20px;
+}
+
+.listado-encabezado{
+  list-style: none;
+
+}
+nav{
+  margin-bottom: 20px;
+}
+
+/*main*/
+main{
+  padding: 10px;
+}
+
+h3{
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+h4{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
